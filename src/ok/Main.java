@@ -5,11 +5,15 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.core.Core;
 public class Main{
+	// Download "Debugger for java"(extension) if you haven't
+	// https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug
+	// Click "Run" below 
 	public static void main(String[] args){
 		// Initialize
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 		String src = "src/ok/img/src.jpg";
 		String dest = "src/ok/img/dest.jpg";
+		// Turn src.img to a mat
 		Mat img = Imgcodecs.imread(src);
 
 		// Process

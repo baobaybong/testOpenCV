@@ -5,6 +5,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.core.Core;
 public class Main{
+	// To use in VSCode:
 	// Download "Debugger for java"(extension) if you haven't
 	// https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug
 	// Click "Run" below 
